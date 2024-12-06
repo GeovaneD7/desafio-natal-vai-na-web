@@ -35,11 +35,23 @@ section {
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
-    width: 50%;
+    width: 27vw;
   }
 }
 
-#loja{
-  width: 40%;
+h1 {
+  font-size: 3rem;
+
+  span {
+    color: #CD3C32;
+  }
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+#loja {
+  width: 35%;
 }
 </style>
