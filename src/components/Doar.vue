@@ -12,6 +12,10 @@ button{
   color: #FFFFFF;
   font-size: 1rem;
   font-weight: 600;
+  
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 </style>

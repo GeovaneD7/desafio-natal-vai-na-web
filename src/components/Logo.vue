@@ -15,4 +15,15 @@ import noel from "../assets/noel.png"
     align-items: center;
     justify-content: center;
   }
+
+  img {
+    height: 3.5vh;
+  }
+
+  p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 7%;
+    width: 150px;
+  }
 </style>
