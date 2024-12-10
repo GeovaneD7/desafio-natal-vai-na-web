@@ -1,5 +1,6 @@
 <script setup>
 import presentes from "../assets/gifts.png"
+import Natal from "./Natal.vue"
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import presentes from "../assets/gifts.png"
       <p>Nessas festas de fim de ano mande um presente para a pessoa amada e compartilhe a alegria do Natal.</p>
     </div>
 
-    <h3 id="cronometro">10d -24h - 01m  - 52s</h3>
+    <Natal/>
 
     <img :src="presentes" alt="">
   </section>
@@ -29,7 +30,7 @@ import presentes from "../assets/gifts.png"
     align-items: center;
     flex-direction: column;
     height: 10vh;
-    margin: 8vh 0 3vh;
+    margin: 8vh 0 0;
 
     h2 {
       font-weight: 600;
@@ -42,13 +43,8 @@ import presentes from "../assets/gifts.png"
     }
   }
 
-  h3 {
-    font-size: 5rem;
-    color: #CD3C32;
-  }
-
   img { 
     width: 20vw; 
-    margin: 3vh 0 8vh;
+    margin: 1vh 0 8vh;
   }
 </style>
